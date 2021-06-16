@@ -44,7 +44,7 @@ tape( 'if an environment supports `Int16Array`, the export is an alias for `Int1
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-int16array-support': isTrue,
+		'@stdlib/assert-has-int16array-support': isTrue,
 		'./int16array.js': Mock
 	});
 	t.strictEqual( Foo, Mock, 'returns builtin' );
@@ -68,7 +68,7 @@ tape( 'if an environment does not support `Int16Array`, the export is a polyfill
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-int16array-support': isFalse
+		'@stdlib/assert-has-int16array-support': isFalse
 	});
 
 	t.strictEqual( Foo, polyfill, 'returns polyfill' );
