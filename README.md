@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@esm/index.mjs';
+import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@v0.1.0-esm/index.mjs';
 ```
 
 #### Int16Array()
@@ -1414,7 +1414,7 @@ var bool = it.next().done;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@esm/index.mjs';
+import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@v0.1.0-esm/index.mjs';
 
 var arr;
 var i;
