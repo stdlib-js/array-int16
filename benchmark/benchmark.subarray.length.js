@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var pow = require( '@stdlib/math-base-special-pow' );
 var isInt16Array = require( '@stdlib/assert-is-int16array' );
 var pkg = require( './../package.json' ).name;
